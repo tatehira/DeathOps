@@ -224,7 +224,13 @@ body {
 
 /* Sections */
 .section {
-    padding: 10rem 0;
+    padding: 12rem 0;
+    /* Aumentado de 10rem para 12rem */
+}
+
+.section-history {
+    margin-top: 4rem;
+    /* Espaço extra após a hero */
 }
 
 .section-label {
