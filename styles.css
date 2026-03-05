@@ -76,6 +76,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
+}
+
+.mobile-menu-toggle {
+    display: none;
+    /* Escondido por padrão no desktop */
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.mobile-menu-toggle:hover {
+    color: var(--color-primary);
 }
 
 .logo {
@@ -471,6 +485,10 @@ blockquote {
 @media (max-width: 768px) {
     .nav-links {
         display: none;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
     }
 
     .hero-title {
